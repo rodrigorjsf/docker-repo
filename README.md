@@ -1,6 +1,5 @@
 # Introdução Docker
-
-Repositório destinado ao estudo de Docker
+![png-clipart-docker-microservices-application-software-cloud-computing-software-deployment-cloud-computing-text-logo](https://user-images.githubusercontent.com/20980109/137416617-ca95093e-7e27-413d-ba10-6ccf472987cc.png)
 
 ## Containers
 
