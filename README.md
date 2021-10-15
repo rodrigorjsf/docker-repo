@@ -1,5 +1,6 @@
 # Introdução Docker
 
+<div style="text-align:center"><img src="https://www.cloudlabs.com.br//wp-content/uploads/2017/07/whale-docker-logo.png" /></div>
 ![Docker Logo](https://www.cloudlabs.com.br//wp-content/uploads/2017/07/whale-docker-logo.png)
 
 ## Containers
