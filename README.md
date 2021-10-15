@@ -1,6 +1,6 @@
 # Introdução Docker
 
-![Docker Logo](https://www.clipartmax.com/png/middle/225-2251437_docker-recipes-docker-logo-transparent.png)
+![Docker Logo](https://www.cloudlabs.com.br//wp-content/uploads/2017/07/whale-docker-logo.png)
 
 ## Containers
 
