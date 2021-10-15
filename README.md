@@ -1,5 +1,6 @@
 # Introdução Docker
-![png-clipart-docker-microservices-application-software-cloud-computing-software-deployment-cloud-computing-text-logo](https://user-images.githubusercontent.com/20980109/137416617-ca95093e-7e27-413d-ba10-6ccf472987cc.png)
+
+![png-clipart-docker-microservices-application-software-cloud-computing-software-deployment-cloud-computing-text-logo](https://user-images.githubusercontent.com/20980109/137416811-0ef99ecd-5834-4b78-bc3c-2e47d23f335c.png)
 
 ## Containers
 
