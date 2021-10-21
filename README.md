@@ -4,37 +4,40 @@
   <img width="269" height="201" src="https://www.cloudlabs.com.br//wp-content/uploads/2017/07/whale-docker-logo.png">
 </p>
 
+
 ## Containers
 
 - Um container é um padrão de unidade de software que empacota código e todas as dependências de uma aplicação fazendo que a mesma seja executada rapidamente de forma confiável de um ambiente computacional para o outro.
 
 - Como funcionam os containers?
+
   - **Namespaces**
-    
+
     - Isola os processos e sua hierarquia
     - Containers são processos que são isolados com seus filhos (processos)
-    
-  -  Processos podem ser de vários tipos
+
+  - Processos podem ser de vários tipos
+
     - PID - processos em si
     - User 
     - Network
     - File system
-    
+
   - Container é um processo com sub processos dele rodando emulando um sistema operacional
-  
+
   - **Cgroups**
-  
+
     - Possibilita o controle de recursos
     - Isola os recursos computacionais dos processos (Containers)
-  
+
   - **File System**
-  
+
     - OFS (Overlay File System)
-  
+
     - Os containers herdam todas as dependências do sistema operacional, tornando ele leve.
-  
+
       
-  
+
 - **Imagens**
 
   - São criadas a partir de camadas
@@ -86,3 +89,21 @@ Em caso de escrita, através de um commit, é gerada uma outra versão da imagem
   - Volumes - Responsável por possibilitar compartilhamentos externos ao container (Exemplo salvar um arquivo gerado no container em uma pasta no computador)
   - Network -  Garante a comunicação entre os containers
 - Docker Client - Necessário pra realizar a comunicação com a API disponibilizada pelo Host
+
+
+
+Comandos básicos
+
+- docker ps
+  - Mostra os containers que estão rodando na máquina
+- docker ps -a
+  - Mostra os containers que estão e que já foram executados na máquina
+- docker run
+  - Executa algo
+    - -it ou -i -t
+      - -i habilita o modo interativo, "prendendo" o terminal ao container em questão permitindo a possibilidade de interação do usuário
+      - -t ou tty habilita a digitação de comandos no terminal
+    - --rm
+      - Remove o historico do container criado após sua finalização
+- docker start <nome_container>
+  - Inicializa um container existente pelo nome
