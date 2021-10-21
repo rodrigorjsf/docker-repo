@@ -92,18 +92,18 @@ Em caso de escrita, através de um commit, é gerada uma outra versão da imagem
 
 
 
-Comandos básicos
+### Comandos básicos
 
-- docker ps
+- **docker ps**
   - Mostra os containers que estão rodando na máquina
-- docker ps -a
+- **docker ps -a**
   - Mostra os containers que estão e que já foram executados na máquina
-- docker run
+- **docker run**
   - Executa algo
     - -it ou -i -t
       - -i habilita o modo interativo, "prendendo" o terminal ao container em questão permitindo a possibilidade de interação do usuário
       - -t ou tty habilita a digitação de comandos no terminal
     - --rm
       - Remove o historico do container criado após sua finalização
-- docker start <nome_container>
+- **docker start <nome_container>**
   - Inicializa um container existente pelo nome
